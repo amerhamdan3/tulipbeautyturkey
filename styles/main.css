@@ -107,10 +107,23 @@
 /*----------------------------------------*/
 /*  1.1 Theme Default
 /*----------------------------------------*/
-@import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap");
-
-@import url('https://fonts.googleapis.com/css2?family=Gulzar&family=Harmattan:wght@500&display=swap');
-
+/* @import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap"); */
+@font-face {
+  font-family: 'Gulzar';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/gulzar/v12/Wnz6HAc9eB3HB2I7YzYYmg8.woff2) format('woff2');
+  unicode-range: U+0600-06FF, U+0750-077F, U+0870-088E, U+0890-0891, U+0898-08E1, U+08E3-08FF, U+200C-200E, U+2010-2011, U+204F, U+2E41, U+FB50-FDFF, U+FE70-FE74, U+FE76-FEFC;
+}
+@font-face {
+  font-family: 'Harmattan';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/harmattan/v19/gokpH6L2DkFvVvRp9Xprv2m3mtxFm6Q.woff2) format('woff2');
+  unicode-range: U+0600-06FF, U+0750-077F, U+0870-088E, U+0890-0891, U+0898-08E1, U+08E3-08FF, U+200C-200E, U+2010-2011, U+204F, U+2E41, U+FB50-FDFF, U+FE70-FE74, U+FE76-FEFC;
+}
 .main-menu ul li .tp-submenu, .tp-accordion .accordion-button .tp-accordion-plus, .tp-accordion .accordion-button .tp-accordion-plus::after, .tp-accordion .accordion-button .tp-accordion-plus::before, .back-to-top-wrapper, a,
 button,
 p,
@@ -147,9 +160,9 @@ li,
   /**
   @font family declaration
   */
-  --tp-ff-body: 'Harmattan', sans-serif;
-  --tp-ff-heading: 'Gulzar', serif;
-  --tp-ff-p: 'Harmattan', sans-serif;
+  --tp-ff-body: 'Harmattan';
+  --tp-ff-heading: 'Gulzar';
+  --tp-ff-p: 'Harmattan';
   --tp-ff-fontawesome: "Font Awesome 6 Pro";
   /**
   @color declaration
