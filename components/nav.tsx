@@ -32,9 +32,9 @@ export default function About(props: any) {
                   <div className="row align-items-center">
                      <div className="col-xxl-3 col-xl-2 col-lg-6 col-md-4 col-6">
                         <div className="logo">
-                           <a href="index.html">
-                              <img height={70} src="assets/img/logo/logo-white.png" alt="logo"/>
-                           </a>
+                           <Link href="/">
+                              <img height={70} src="/assets/img/logo/logo-white.png" alt="logo"/>
+                           </Link>
                         </div>
                      </div>
                      <div className="col-xxl-6 col-xl-7 d-none d-xl-block">
@@ -44,97 +44,22 @@ export default function About(props: any) {
                                  <li >
                                     <Link href="/" >الرئيسية</Link>
 
-                                    {/* <div className="tp-submenu has-homemenu">
-                                       <div className="row gx-6 row-cols-1 row-cols-md-2 row-cols-xl-4">
-                                          <div className="col homemenu active">
-                                             <div className="homemenu-thumb">
-                                                <img src="assets/img/menu/home-1.jpg" alt=""/>
-                                             </div>
-                                             <div className="homemenu-btn">
-                                                <a className="menu-btn" href="index.html">View Demo</a>
-                                             </div>
-                                          </div>
-                                          <div className="col homemenu">
-                                             <div className="homemenu-thumb">
-                                                <img src="assets/img/menu/home-2.jpg" alt=""/>
-                                             </div>
-                                             <div className="homemenu-btn">
-                                                <a className="menu-btn" href="index-2.html">View Demo</a>
-                                             </div>
-                                          </div>
-                                          <div className="col homemenu">
-                                             <div className="homemenu-thumb">
-                                                <img src="assets/img/menu/home-3.jpg" alt=""/>
-                                             </div>
-                                             <div className="homemenu-btn">
-                                                <a className="menu-btn" href="index-3.html">View Demo</a>
-                                             </div>
-                                          </div>
-                                          <div className="col homemenu">
-                                             <div className="homemenu-thumb">
-                                                <img src="assets/img/menu/home-4.jpg" alt=""/>
-                                             </div>
-                                             <div className="homemenu-btn">
-                                                <a className="menu-btn" href="index-4.html">View Demo</a>
-                                             </div>
-                                          </div>
-                                          <div className="col homemenu">
-                                             <div className="homemenu-thumb">
-                                                <img src="assets/img/menu/home-5.jpg" alt=""/>
-                                             </div>
-                                             <div className="homemenu-btn">
-                                                <a className="menu-btn" href="index-5.html">View Demo</a>
-                                             </div>
-                                          </div>
-                                          <div className="col homemenu">
-                                             <div className="homemenu-thumb">
-                                                <img src="assets/img/menu/home-6.jpg" alt=""/>
-                                             </div>
-                                             <div className="homemenu-btn">
-                                                <a className="menu-btn" href="index-6.html">View Demo</a>
-                                             </div>
-                                          </div>
-                                          <div className="col homemenu">
-                                             <div className="homemenu-thumb">
-                                                <img src="assets/img/menu/home-7.jpg" alt=""/>
-                                             </div>
-                                             <div className="homemenu-btn">
-                                                <a className="menu-btn" href="index-7.html">View Demo</a>
-                                             </div>
-                                          </div>
-                                          <div className="col homemenu">
-                                             <div className="homemenu-thumb comming-demo">
-                                                <img src="assets/img/menu/home-7.jpg" alt=""/>
-                                             </div>
-                                             <div className="homemenu-btn comming-btn">
-                                                <a className="menu-btn" href="comming-soon.html">Up Comming</a>
-                                             </div>
-                                          </div>
-                                       </div>
-                                    </div> */}
+                                    
                                  </li>
                                  <li>
                                  <Link href="/about" > من نحن </Link>
                                    
                                  </li>
-                                 {/* <li className="has-dropdown">
-                                    <a href="#">Pages</a>
+                                 <li className="has-dropdown">
+                                    <a href="#">العمليات</a>
                                     <ul className="tp-submenu">
-                                       <li><a href="case.html">Case</a></li>
-                                       <li><a href="case-details.html">Case Details</a></li>
-                                       <li><a href="services.html">Services</a></li>
-                                       <li><a href="service-details.html">Services Details</a></li>
-                                       <li><a href="team.html">Team</a></li>
-                                       <li><a href="team-details.html">Team Details</a></li>
-                                       <li><a href="pricing.html">Pricing</a></li>
-                                       <li><a href="faq.html">FAQ</a></li>
-                                       <li><a href="appointment.html">Appointment</a></li>
-                                       <li><a href="blog.html">Blog</a></li>
-                                       <li><a href="blog-grid.html">Blog Grid</a></li>
-                                       <li><a href="blog-details.html">Blog Details</a></li>
+                                       <li><Link href="/oppretions/1">شفط الدهون</Link></li>
+                                       <li><Link href="/oppretions/2">عملية شد الزراعين</Link></li>
+                                       <li><Link href="/oppretions/3">عملية تكبير الثدي بالسيليكون</Link></li>
+                                       <li><Link href="/oppretions/4">جراحة تجميل الأنف</Link></li>
                                     </ul>
                                  </li>
-                                 <li className="has-dropdown">
+                                 {/* <li className="has-dropdown">
                                     <a href="shop.html">Shop</a>
                                     <ul className="tp-submenu">
                                        <li><a href="shop.html">Shop</a></li>
@@ -149,7 +74,7 @@ export default function About(props: any) {
                                     </ul>
                                  </li> */}
                                  <li>
-                                    <Link href="contact">تواصل معنا</Link>
+                                    <Link href="/contact">تواصل معنا</Link>
                                  </li>
                               </ul>
                            </nav>
@@ -228,9 +153,9 @@ export default function About(props: any) {
         <div className="offcanvas__content">
             <div className="offcanvas__top mb-70 d-flex justify-content-between align-items-center">
             <div className="offcanvas__logo logo">
-                <a href="index.html">
-                <img src="assets/img/logo/logo.png" alt="logo" />
-                </a>
+                <Link href="/">
+                <img src="/assets/img/logo/logo.png" alt="logo" />
+                </Link>
             </div>
             </div>
             <div className="tp-main-menu-mobile" />
