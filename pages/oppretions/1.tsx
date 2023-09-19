@@ -1,5 +1,5 @@
 import { PageContent } from "./layout";
-import {Title } from "./layout";
+import Title from "./layout";
 
 export default function Page() {
 

@@ -1,7 +1,7 @@
 
 import React from "react"
 
-export function Title({children}:{children: React.ReactNode}) {
+export default function Title({children}:{children: React.ReactNode}) {
     return (
       <section className="breadcrumb-area tpbreadcrumb-overlay" data-background="/assets/img/breadcrumb/breadcrumb-bg-1.jpg" >
       <div className="container">
