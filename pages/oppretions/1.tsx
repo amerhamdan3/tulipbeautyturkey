@@ -12,9 +12,9 @@ return (
 
     <PageContent>
     <div className="services-details-item mb-55">
-                <div className="services-details-thumb mb-30">
+                {/* <div className="services-details-thumb mb-30">
                   <img src="/assets/img/services/service-details/service-details-2.jpg"alt="" />
-                </div>
+                </div> */}
                 <h4 className="services-details-item-title">
                 ماهي عملية شفط الدهون ؟
                 </h4>
@@ -112,7 +112,7 @@ return (
                     </li>
                 </ul>
 
-              </div>
+    </div>
     </PageContent>
     <section className="brand-slider-area" dir='ltr'>
        <div className="brand-slider-wrap">

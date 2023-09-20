@@ -37,9 +37,9 @@ return (
           <div className="col-lg-8 offset-lg-2">
             <div className="services-details-right">
               <div className="services-details-item mb-55">
-                <div className="services-details-thumb mb-30">
+                {/* <div className="services-details-thumb mb-30">
                   <img src="/assets/img/services/service-details/service-details-2.jpg"alt="" />
-                </div>
+                </div> */}
                 <div className='service-content'>
                 <h1>ماهي عملية شد الزراعين :</h1>
                 <p>عملية شد الزراعين هي إجراء جراحي يهدف إلى تحسين مظهر الزراعين وشدّهما. تُجرى هذه العملية عادة لأشخاص يعانون من ترهل وتراخي في جلد الزراعين نتيجة لتقدم العمر، فقدان الوزن بشكل كبير، أو بعض العوامل الوراثية.</p>

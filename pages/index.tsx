@@ -27,10 +27,10 @@ export default function Home() {
                          في عيادتنا، نسعى جاهدين لجعل أحلامك الجمالية حقيقة. مهمتنا هي تقديم أعلى مستويات الرعاية والجودة في مجال عمليات التجميل.</p>
                    </div>
                    <ul className="tpbanner-list">
-                      <li className="tpbanner-list-1"><span>01 - شفط الدهون</span></li>
-                      <li className="tpbanner-list-2"><span>02 - زراعة الشعر</span></li>
-                      <li className="tpbanner-list-3"><span>03 - تجميل الانف</span></li>
-                      <li className="tpbanner-list-4"><span>04 - شد البطن</span></li>
+                      <li className="tpbanner-list-1"><Link href="/oppretions/1"><span>01 - شفط الدهون</span></Link></li>
+                      <li className="tpbanner-list-2"><Link href="/oppretions/2"><span>02 - شد الزراعين</span></Link></li>
+                      <li className="tpbanner-list-3"><Link href="/oppretions/3"><span>03 - تكبير الثدي بالسيليكون</span></Link></li>
+                      <li className="tpbanner-list-4"><Link href="/oppretions/4"><span>04 - تجميل الأنف </span></Link></li>
                    </ul>
                 </div>
              </div>
@@ -49,23 +49,6 @@ export default function Home() {
              </div>
           </div>
        </div>
-       {/* <div className="tpbanner-video wow fadeInRight" data-wow-duration="1s" data-wow-delay=".3s">
-          <div className="tpbanner-video-info">
-             <Link className="tp-btn" href="contact">احصل على استشارة</Link>
-          </div>
-          <div className="tpbanner-video-thumb p-relative">
-             <img src="assets/img/banner/video-1-bg-1.jpg" alt=""/>
-             <div className="tpbanner-video-play">
-                <a className="popup-video" href="https://www.youtube.com/watch?v=TYYf8zYjP5k">
-                   <i>
-                      <svg width="21" height="24" viewBox="0 0 21 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                         <path d="M20 10.268C21.3333 11.0378 21.3333 12.9623 20 13.7321L3.5 23.2583C2.16666 24.0281 0.500001 23.0659 0.500001 21.5263L0.500002 2.47372C0.500002 0.934117 2.16667 -0.0281314 3.5 0.741669L20 10.268Z" fill="currentColor"/>
-                      </svg>
-                   </i>
-                </a>
-             </div>
-          </div>
-       </div> */}
     </section>
     
     <section className="about-area pt-130 pb-90">
@@ -295,51 +278,46 @@ export default function Home() {
              </div>
              <div className="col-xxl-7 col-xl-6 col-lg-7">
                 <div className="form-wrap wow fadeInRight" data-wow-duration="1.8s" data-wow-delay=".7s">
-                   <form action="#">
+                   <form action="https://formspree.io/f/xrgwylpl">
                       <div className="row">
                          <div className="col-lg-6">
                             <div className="appoinment-form-input mb-30">
-                               <input type="text" placeholder="Your Name"/>
+                               <input name='name' type="text" placeholder="الاسم"/>
                             </div>
                          </div>
                          <div className="col-lg-6">
                             <div className="appoinment-form-input mb-30">
-                               <input type="text" placeholder="Phone"/>
+                               <input name='phone' type="text" placeholder="الهاتف"/>
                             </div>
                          </div>
                          <div className="col-lg-6">
                             <div className="appoinment-form-input mb-30">
-                               <input type="email" placeholder="Email Address"/>
+                               <input name='email' type="email" placeholder="البريد الالكتروني"/>
                             </div>
                          </div>
                          <div className="col-lg-6">
                             <div className="appoinment-form-input mb-30">
-                               <select className="doctor-name wide">
-                                  <option>Category</option>
-                                  <option value="Cleaning Service">Brain Surgery</option>
-                                  <option value="Iron Service">Plastic Surgery</option>
-                                  <option value="Carpet Service">Ear Reshaping</option>
+                               <select name='surgery' className="doctor-name wide">
+                                  <option disabled selected>ما هي العملية</option>
+                                  <option value="Cleaning Service">زراعة شعر</option>
+                                  <option value="Iron Service">شد البطن</option>
+                                  <option value="Carpet Service">تجميل انف</option>
                                </select>
                             </div>
                          </div>
-                         <div className="col-lg-6">
+                         {/* <div className="col-lg-6">
                             <div className="appoinment-form-input mb-30">
-                               <select className="doctor-name wide">
+                               <select name='doctor' className="doctor-name wide">
                                   <option>Choose Doctor</option>
                                   <option value="Cleaning Service">Dr. Jhong</option>
                                   <option value="Iron Service">Dr. Phongsuk</option>
                                   <option value="Carpet Service">Dr. Wagdhu</option>
                                </select>
                             </div>
-                         </div>
-                         <div className="col-lg-6">
-                            <div className="appoinment-form-input mb-30">
-                               <input type="text" placeholder="Date"/>
-                            </div>
-                         </div>
+                         </div> */}
                          <div className="col-lg-12">
                             <div className="appoinment-form-submit mb-30">
-                               <button className="tp-btn">Get Appointment</button>
+                               <button className="tp-btn">احصل على موعد مباشرة</button>
                             </div>
                          </div>
                       </div>
@@ -375,7 +353,7 @@ export default function Home() {
                    </div>
                    <div className="happy-client">
                       <h2 className="count"><span className="odometer" data-count="26"></span>K</h2>
-                      <p>Happy <br/> Customers</p>
+                      <p>زبون  <br/> سعيد</p>
                    </div>
                 </div>
              </div>

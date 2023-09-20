@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export default function name(params:any) {
 
     return(
@@ -5,16 +7,15 @@ export default function name(params:any) {
         {/* breadcrumb-area-start */}
         <section
             className="breadcrumb-area tpbreadcrumb-overlay"
-            data-background="assets/img/breadcrumb/breadcrumb-bg-2.jpg"
+            data-background="assets/img/breadcrumb/breadcrumb-bg-1.jpg"
         >
             <div className="container">
             <div className="row align-items-center">
                 <div className="col-12">
                 <div className="tpbreadcrumb text-center">
-                    <h2 className="tpbreadcrumb-title">About Us</h2>
+                    <h2 className="tpbreadcrumb-title"> من نحن </h2>
                     <p>
-                    At vero eos et accusamus et iusto odio dignissimos <br /> ducimus
-                    qui blan ditisede voluptatum.
+                    مرحبًا بك في عيادة التجميل الرائدة!
                     </p>
                 </div>
                 </div>
@@ -30,14 +31,10 @@ export default function name(params:any) {
                 <div className="about-inner mb-60">
                     <div className="tpsection mb-30">
                     <h2 className="tpsection-title mb-25">
-                        Our Mission is to Improve Skin
+                        مهمتنا  تقديم أعلى مستوى من الخدمة والرعاية لعملائنا
                     </h2>
                     <p>
-                        Our priority is to make your outer beauty shine as brightly as
-                        your inner beauty. We make a serious commitment to helping you
-                        get the results you want and the care you need. We combine our
-                        cutting-edge technology with expertise and genuine compassion to
-                        help you reach your aesthetic comfortable experience possible.
+                    مع التركيز على تحقيق نتائج طبيعية وجميلة تعكس أفضل إصدار لكل فرد. نحن نؤمن بأهمية الثقة بالنفس والتوازن الجمالي، ونسعى جاهدين لتلبية توقعات عملائنا وتحقيق أحلامهم من خلال أحدث التقنيات والممارسات الطبية.
                     </p>
                     </div>
                     <ul>
@@ -67,7 +64,7 @@ export default function name(params:any) {
                             </defs>
                         </svg>
                         </span>
-                        We strive to bring out the best
+                        عش كل لحظة من الجمال
                     </li>
                     <li>
                         <span>
@@ -95,7 +92,7 @@ export default function name(params:any) {
                             </defs>
                         </svg>
                         </span>
-                        Beauty &amp; glam can be perfect
+                        نهدف إلى إظهار أفضل ما فيك
                     </li>
                     <li>
                         <span>
@@ -123,7 +120,7 @@ export default function name(params:any) {
                             </defs>
                         </svg>
                         </span>
-                        Brings out the best in you
+                        الجمال والتألق يمكن أن يكونا مثاليين
                     </li>
                     <li>
                         <span>
@@ -151,13 +148,13 @@ export default function name(params:any) {
                             </defs>
                         </svg>
                         </span>
-                        Live every moment beauty
+                        يظهر أفضل ما فيك
                     </li>
                     </ul>
                     <div className="about-inner-btn">
-                    <a href="contact.html" className="tp-btn">
-                        Contact With Us
-                    </a>
+                    <Link href="/contact" className="tp-btn">
+                        تواصل معنا
+                    </Link>
                     </div>
                 </div>
                 </div>
@@ -177,7 +174,7 @@ export default function name(params:any) {
         </section>
         {/* about-area-end */}
         {/* history-area-start */}
-        <section className="history-area pb-105">
+        {/* <section className="history-area pb-105">
             <div className="container">
             <div className="row">
                 <div className="col-lg-12">
@@ -371,10 +368,10 @@ export default function name(params:any) {
                 </ul>
             </div>
             </div>
-        </section>
+        </section> */}
         {/* history-area-end */}
         {/* brand-area-start */}
-        <div className="brand-area pb-145">
+        {/* <div className="brand-area pb-145">
             <div className="container">
             <div className="row">
                 <div className="col-lg-12">
@@ -413,10 +410,10 @@ export default function name(params:any) {
                 </div>
             </div>
             </div>
-        </div>
+        </div> */}
         {/* brand-area-end */}
         {/* choose-area-start */}
-        <section className="choose-area pb-60">
+        {/* <section className="choose-area pb-60">
             <div className="container">
             <div className="row">
                 <div className="col-xl-4 col-lg-12">
@@ -505,10 +502,10 @@ export default function name(params:any) {
                 </div>
             </div>
             </div>
-        </section>
+        </section> */}
         {/* choose-area-end */}
         {/* team-area-start */}
-        <section className="team-area theme-bg-7 pt-140 pb-105">
+        {/* <section className="team-area theme-bg-7 pt-140 pb-105">
             <div className="container">
             <div className="row">
                 <div className="col-lg-9">
@@ -686,10 +683,10 @@ export default function name(params:any) {
                 </div>
             </div>
             </div>
-        </section>
+        </section> */}
         {/* team-area-end */}
         {/* testimonial-area-start */}
-        <section className="testimonial-area pt-135 mb-80">
+        {/* <section className="testimonial-area pt-135 mb-80">
             <div className="container">
             <div className="row">
                 <div className="col-xl-7 col-lg-6">
@@ -905,55 +902,34 @@ export default function name(params:any) {
                 </div>
             </div>
             </div>
-        </section>
+        </section> */}
         {/* testimonial-area-end */}
         {/* brand-slider-area-start */}
-        <section className="brand-slider-area">
-            <div className="brand-slider-wrap brand-slider-4">
-            <div className="brand-slide-active splide">
-                <div className="splide__track">
+        <section className="brand-slider-area" dir='ltr'>
+       <div className="brand-slider-wrap">
+          <div className="brand-slide-active splide">
+             <div className="splide__track">
                 <div className="splide__list">
-                    <div className="splide__slide">
-                    <div className="brand-slider-item">
-                        <h4 className="brand-slider-title">
-                        {" "}
-                        <i>
-                            <img
-                            src="assets/img/shape/brand-slider-icon-1.png"
-                            alt=""
-                            />
-                        </i>{" "}
-                        <a href="#">Get In Touch</a>{" "}
-                        </h4>
-                    </div>
-                    </div>
-                    <div className="splide__slide">
-                    <div className="brand-slider-item">
-                        <h4 className="brand-slider-title">
-                        <i>
-                            {" "}
-                            <img
-                            src="assets/img/shape/brand-slider-icon-1.png"
-                            alt=""
-                            />
-                        </i>{" "}
-                        <a href="#">Healing Is Better</a>
-                        </h4>
-                    </div>
-                    </div>
-                    <div className="splide__slide">
-                    <div className="brand-slider-item">
-                        <h4 className="brand-slider-title">
-                        {" "}
-                        <a href="#">Improving life</a>
-                        </h4>
-                    </div>
-                    </div>
+                   <div className="splide__slide">
+                      <div className="brand-slider-item">
+                         <h4 className="brand-slider-title"> <i><img src="assets/img/shape/brand-slider-icon-1.png" alt=""/></i> <a href="#">عناية مميزة</a> </h4>
+                      </div>
+                   </div>
+                   <div className="splide__slide">
+                      <div className="brand-slider-item">
+                         <h4 className="brand-slider-title"><i> <img src="assets/img/shape/brand-slider-icon-1.png" alt=""/></i> <a href="#">الجمال الطبيعي</a></h4>
+                      </div>
+                   </div>
+                   <div className="splide__slide">
+                      <div className="brand-slider-item">
+                      <h4 className="brand-slider-title"><i> <img src="assets/img/shape/brand-slider-icon-1.png" alt=""/></i> <a href="#">تحسين الحياة</a></h4>
+                      </div>
+                   </div>
                 </div>
-                </div>
-            </div>
-            </div>
-        </section>
+             </div>
+          </div>
+       </div>
+    </section>
         {/* brand-slider-area-end */}
         </main>
 
