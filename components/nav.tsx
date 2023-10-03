@@ -57,6 +57,15 @@ export default function About(props: any) {
                                        <li><Link href="/oppretions/2">عملية شد الزراعين</Link></li>
                                        <li><Link href="/oppretions/3">عملية تكبير الثدي بالسيليكون</Link></li>
                                        <li><Link href="/oppretions/4">جراحة تجميل الأنف</Link></li>
+                                       <li><Link href="/oppretions/5">التثدي عند الرجال</Link></li>
+                                       {/* <li><Link href="/oppretions/6">جراحة تجميل الأنف</Link></li> */}
+                                       <li><Link href="/oppretions/7">عملية جراحة الوجه</Link></li>
+                                       <li><Link href="/oppretions/8">عملية رفع الجفن</Link></li>
+                                       <li><Link href="/oppretions/9">تكبير الأرداف</Link></li>
+                                       <li><Link href="/oppretions/10">شد البطن</Link></li>
+                                       <li><Link href="/oppretions/11">زراعة الشعر</Link></li>
+                                       <li><Link href="/oppretions/12">بناء الثدي</Link></li>
+                                      
                                     </ul>
                                  </li>
                                  {/* <li className="has-dropdown">
