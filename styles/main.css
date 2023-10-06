@@ -170,14 +170,18 @@ li,
   --tp-common-white: #ffffff;
   --tp-common-black: #000;
   --tp-common-1: #FCF6EF;
-  --tp-heading-primary: #481E0B;
+  /* --tp-heading-primary: #481E0B; */
+  --tp-heading-primary: #dbc08d;
   --tp-grey-1: #F1F1F1;
   --tp-grey-2: #F5F6F8;
   --tp-grey-3: #F5F2ED;
   --tp-text-body: #6A5952;
-  --tp-text-1: #481E0B;
-  --tp-theme-primary: #CD5F37;
-  --tp-theme-secondary: #F7E6D4;
+  --tp-text-1: #dbc08d;
+  /* --tp-text-1: #481E0B; */
+  --tp-theme-primary: #dbc08d;
+  /* --tp-theme-primary: #CD5F37; */
+  --tp-theme-secondary: #54595F;
+    /* --tp-theme-secondary: #F7E6D4; */
   --tp-theme-3: #F0DED6;
   --tp-theme-4: #FFD056;
   --tp-theme-5: #FDF2ED;
@@ -202,6 +206,7 @@ li,
 	typography css start 
 ---------------------------------*/
 body {
+  background-color: #000;
   font-family: var(--tp-ff-body);
   font-size: var(--tp-fz-body);
   font-weight: normal;
@@ -4316,7 +4321,7 @@ div.demo img {
   font-size: 184px;
   line-height: 0.9;
   margin-bottom: 47px;
-  white-space: nowrap;
+  /* white-space: nowrap; */
 }
 @media only screen and (min-width: 1200px) and (max-width: 1399px) {
   .tpbanner-title {
@@ -6933,7 +6938,7 @@ blockquote cite::before {
 }
 [dir=rtl] .footer-col-2{
   padding-right: 145px;
-  margin-left: -50px;
+  margin-right: -50px;
   position: relative;
 }
 .footer-col-2 {

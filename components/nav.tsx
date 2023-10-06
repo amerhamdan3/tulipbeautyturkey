@@ -1,5 +1,6 @@
+'use client'
 import Link from "next/link";
-
+import { use } from "react";
 export default function About(props: any) {
     return (
     <>
@@ -131,7 +132,7 @@ export default function About(props: any) {
 
 
     {/* offcanvas area start */}
-    <div className="offcanvas__area">
+    <div className="offcanvas__area" hidden>
         <div className="offcanvas__wrapper">
         <div className="offcanvas__close">
             <button className="offcanvas__close-btn offcanvas-close-btn">
@@ -163,7 +164,7 @@ export default function About(props: any) {
             <div className="offcanvas__top mb-70 d-flex justify-content-between align-items-center">
             <div className="offcanvas__logo logo">
                 <Link href="/">
-                <img src="/assets/img/logo/logo.png" alt="logo" />
+                <img height={20} src="/assets/img/logo/logo.png" alt="logo" />
                 </Link>
             </div>
             </div>

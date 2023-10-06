@@ -149,8 +149,9 @@ export default function Home() {
           <div className="row">
              <div className="col-lg-12">
                 <div className="beforeAfter">
-                   <img src="assets/img/before-after/before-after-1.jpg" alt=""/>
-                   <img src="assets/img/before-after/before-after-2.jpg" alt=""/>
+                  
+                   <img loading="lazy" width={100} src="assets/img/before-after/before-after-1.jpg" alt=""/>
+                   <img loading="lazy" width={100} src="assets/img/before-after/before-after-2.jpg" alt=""/>
                 </div>
              </div>
           </div>
@@ -211,7 +212,7 @@ export default function Home() {
                    <div className="team-item tp-thumb-common fix">
                       <div className="tp-thumb-common-overlay wow"></div>
                       <div className="team-profile">
-                         <img src="assets/img/team/team-1.jpg" alt=""/>
+                         <img loading="lazy" src="assets/img/team/team-1.jpg" alt=""/>
                       </div>
                       <div className="team-content text-center">
                          <div className="team-author-social pt-50 pb-20">
@@ -228,7 +229,7 @@ export default function Home() {
                    <div className="team-item tp-thumb-common fix">
                       <div className="tp-thumb-common-overlay wow"></div>
                       <div className="team-profile">
-                         <img src="assets/img/team/team-2.jpg" alt=""/>
+                         <img loading="lazy" src="assets/img/team/team-2.jpg" alt=""/>
                       </div>
                       <div className="team-content text-center">
                          <div className="team-author-social pt-50 pb-20">
@@ -245,7 +246,7 @@ export default function Home() {
                    <div className="team-item tp-thumb-common fix">
                       <div className="tp-thumb-common-overlay wow"></div>
                       <div className="team-profile">
-                         <img src="assets/img/team/team-3.jpg" alt=""/>
+                         <img loading="lazy" src="assets/img/team/team-3.jpg" alt=""/>
                       </div>
                       <div className="team-content text-center">
                          <div className="team-author-social pt-50 pb-20">
@@ -328,10 +329,10 @@ export default function Home() {
        </div>
        <div className="appoinment-shape">
           <div className="appoinment-shape-1">
-             <img src="assets/img/shape/form-shape-1.png" alt=""/>
+             <img loading="lazy" src="assets/img/shape/form-shape-1.png" alt=""/>
           </div>
           <div className="appoinment-shape-2">
-             <img src="assets/img/shape/form-shape-2.png" alt=""/>
+             <img  loading="lazy" src="assets/img/shape/form-shape-2.png" alt=""/>
           </div>
        </div>
     </section>
@@ -344,11 +345,11 @@ export default function Home() {
              <div className="col-xl-7 col-lg-6">
                 <div className="testimonial-wrap p-relative mt-20 mb-60">
                    <div className="testimonial-main-bg">
-                      <img src="assets/img/testimonial/testimonial-1-bg-1.png" alt=""/>
+                      <img loading="lazy" src="assets/img/testimonial/testimonial-1-bg-1.png" alt=""/>
                    </div>
                    <div className="testimonial-shape">
                       <div className="testimonial-shape-1 wow fadeInRight" data-wow-duration="1s" data-wow-delay=".3s">
-                         <img src="assets/img/testimonial/testimonial-1-bg-2.png" alt=""/>
+                         <img loading="lazy" src="assets/img/testimonial/testimonial-1-bg-2.png" alt=""/>
                       </div>
                    </div>
                    <div className="happy-client">
