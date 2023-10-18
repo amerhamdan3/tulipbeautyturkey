@@ -17,22 +17,16 @@ export default function About(props: any) {
               <div className="footer-link">
                 <ul>
                   <li>
-                    <a href="#">تكبير الثدي بالسيليكون</a>
-                  </li>
-                  <li>
-                    <a href="#">عملية شفط الدهون</a>
-                  </li>
-                  <li>
-                    <a href="#">تجميل الانف</a>
-                  </li>
-                  <li>
                     <a href="#">زراعة الشعر</a>
                   </li>
                   <li>
-                    <a href="#">إعادة بناء الثدي</a>
+                    <a href="#">التجميل الجراحي</a>
                   </li>
                   <li>
-                    <a href="#">عملية شد الوجه</a>
+                    <a href="#">عمليات الأسنان</a>
+                  </li>
+                  <li>
+                    <a href="#">عمليات تخفيض الوزن</a>
                   </li>
                 </ul>
               </div>
@@ -46,7 +40,7 @@ export default function About(props: any) {
             >
               <div className="footer-logo">
                 <a href="index.html">
-                  <img height={150} src="assets/img/logo/logo.png" alt="" />
+                  <img height={150} src="assets/img/logo/logo-gold.png" alt="" />
                 </a>
               </div>
               <div className="footer-content">
@@ -63,10 +57,10 @@ export default function About(props: any) {
                       <i className="fa-brands fa-twitter" />
                     </a>
                     <a href="#">
-                      <i className="fa-brands fa-pinterest-p" />
+                      <i className="fa-brands fa-instagram" />
                     </a>
                     <a href="#">
-                      <i className="fa-brands fa-wordpress" />
+                      <i className="fa-brands fa-tiktok" />
                     </a>
                   </div>
                 </div>

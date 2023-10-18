@@ -12,6 +12,8 @@ export default function Home() {
   
   return (
   <main>
+
+
     <section className="banner-area theme-bg-2 p-relative">
     <video autoPlay muted data-autoplay="true" data-loop="true" className='headerVideo' src="/assets/production_id_4153808.mp4"></video>
        <div className="container">
@@ -21,16 +23,16 @@ export default function Home() {
                    <div className="tpbanner-content">
                    <p></p>
                      <br></br>
-                      <h2 className="tpbanner-title">عيادة التجميل</h2>
+                      {/* <h2 className="tpbanner-title">عيادة التجميل</h2> */}
                       <b></b>
                       <p style={{color:'#b1aa9f'}}>نحن نفهم تمامًا أهمية الجمال والثقة بالنفس.<br/>
                          في عيادتنا، نسعى جاهدين لجعل أحلامك الجمالية حقيقة. مهمتنا هي تقديم أعلى مستويات الرعاية والجودة في مجال عمليات التجميل.</p>
                    </div>
                    <ul className="tpbanner-list">
-                      <li className="tpbanner-list-1"><Link href="/oppretions/1"><span>01 - شفط الدهون</span></Link></li>
-                      <li className="tpbanner-list-2"><Link href="/oppretions/2"><span>02 - شد الزراعين</span></Link></li>
-                      <li className="tpbanner-list-3"><Link href="/oppretions/3"><span>03 - تكبير الثدي بالسيليكون</span></Link></li>
-                      <li className="tpbanner-list-4"><Link href="/oppretions/4"><span>04 - تجميل الأنف </span></Link></li>
+                      <li className="tpbanner-list-1"><Link href="/oppretions/1"><span>زراعة الشعر</span></Link></li>
+                      <li className="tpbanner-list-2"><Link href="/oppretions/2"><span>التجميل الجراحي</span></Link></li>
+                      <li className="tpbanner-list-3"><Link href="/oppretions/3"><span>عمليات الأسنان</span></Link></li>
+                      <li className="tpbanner-list-4"><Link href="/oppretions/4"><span>عمليات تخفيض الوزن</span></Link></li>
                    </ul>
                 </div>
              </div>
@@ -75,8 +77,9 @@ export default function Home() {
                       <div className="row">
                          <div className="col-lg-6 col-md-6">
                             <div className="about-box-content p-relative mb-30">
-                               <p>مهمتنا هي تقديم أعلى مستويات الرعاية والجودة في مجال عمليات التجميل.</p>
+                               
                                <h5 className="about-box-title">مهمتنا</h5>
+                               <p>مهمتنا هي تقديم أعلى مستويات الرعاية والجودة في مجال عمليات التجميل.</p>
                                <div className="about-box-shape">
                                   <img src="assets/img/about/about-1-shape-2.png" alt=""/>
                                </div>
@@ -84,8 +87,9 @@ export default function Home() {
                          </div>
                          <div className="col-lg-6 col-md-6">
                             <div className="about-box-content about-box-2 p-relative mb-30">
-                               <p>توفير أحدث التقنيات والمعدات في مجال التجميل لضمان نتائج ممتازة وأمان عالي لعملائنا.</p>
+                               
                                <h5 className="about-box-title">رؤيتنا</h5>
+                               <p>توفير أحدث التقنيات والمعدات في مجال التجميل لضمان نتائج ممتازة وأمان عالي لعملائنا.</p>
                                <div className="about-box-shape">
                                   <img src="assets/img/about/about-1-shape-2.png" alt=""/>
                                </div>
@@ -221,7 +225,7 @@ export default function Home() {
                             <a href="#"><i className="fa-brands fa-twitter"></i></a>
                          </div>
                          <h4 className="team-author-title under-line-white"><a href="team-details.html">Dr. Michle Jhon</a> </h4>
-                         <span className="team-author-position">Brain Surgeon</span>
+                         <span className="team-author-position">Plastic Surgeon</span>
                       </div>
                    </div>
                 </div>
@@ -255,7 +259,7 @@ export default function Home() {
                             <a href="#"><i className="fa-brands fa-twitter"></i></a>
                          </div>
                          <h4 className="team-author-title under-line-white"> <a href="team-details.html">Dr. Jesif</a> </h4>
-                         <span className="team-author-position">Brain Surgeon</span>
+                         <span className="team-author-position">Plastic Surgeon</span>
                       </div>
                    </div>
                 </div>
@@ -301,8 +305,10 @@ export default function Home() {
                                <select name='surgery' className="doctor-name wide">
                                   <option disabled selected>ما هي العملية</option>
                                   <option value="Cleaning Service">زراعة شعر</option>
-                                  <option value="Iron Service">شد البطن</option>
-                                  <option value="Carpet Service">تجميل انف</option>
+                                  <option value="Carpet Service">تجميل جراحي</option>
+                                  <option value="Iron Service">أسنان</option>
+                                  <option value="Iron Service">تخفيض الوزن</option>
+                                 
                                </select>
                             </div>
                          </div>
@@ -331,9 +337,9 @@ export default function Home() {
           <div className="appoinment-shape-1">
              <img loading="lazy" src="assets/img/shape/form-shape-1.png" alt=""/>
           </div>
-          <div className="appoinment-shape-2">
+          {/* <div className="appoinment-shape-2">
              <img  loading="lazy" src="assets/img/shape/form-shape-2.png" alt=""/>
-          </div>
+          </div> */}
        </div>
     </section>
     {/* appoinment-form-area-end */}
@@ -401,7 +407,7 @@ export default function Home() {
                                     ”</p>
                                      <div className="testimonial-author">
                                         <span className="testimonial-author-name">Amina Khalil</span>
-                                        <span className="testimonial-author-position">CTO</span>
+                                        <span className="testimonial-author-position">تجميل</span>
                                      </div>
                                   </div>
                                </div>
@@ -410,7 +416,7 @@ export default function Home() {
                                      <p>لا يمكنني إلا أن أشيد بجمال توليب! إنه المكان الذي يجعلك تشعرين وكأنك في عالم آخر مليء بالجمال والرفاهية. العلاجات التي قدموها لي كانت فعلاً استثنائية، وأرى فرقًا واضحًا في بشرتي ومظهري. شكرًا لكم على العناية الرائعة والاهتمام بالتفاصيل الصغيرة. أنا ممتنة جدًا وسأعود بالتأكيد!”</p>
                                      <div className="testimonial-author">
                                         <span className="testimonial-author-name">Leila Ahmed</span>
-                                        <span className="testimonial-author-position">CEO & Founder</span>
+                                        <span className="testimonial-author-position">تجميل</span>
                                      </div>
                                   </div>
                                </div>
@@ -419,7 +425,7 @@ export default function Home() {
                                      <p>أنا مدمنة على توليب للجمال! إنه المكان الذي أجد فيه الهدوء والاسترخاء بالإضافة إلى الجمال. خدمة العملاء هناك لا تضاهى، والمعالجات تمتزج بين الفخامة والجودة. لقد شعرت بأنني في عالم خاص بي حيث الجمال يأتي من الداخل والخارج. أنصح بشدة بتوليب لكل من يبحث عن تجربة جمال فريدة من نوعها!”</p>
                                      <div className="testimonial-author">
                                         <span className="testimonial-author-name">Yasmin Hamdi</span>
-                                        <span className="testimonial-author-position">Founder</span>
+                                        <span className="testimonial-author-position">تجميل</span>
                                      </div>
                                   </div>
                                </div>
@@ -472,7 +478,7 @@ export default function Home() {
     {/* cta-area-start */}
     <section className="cta-area mb-120">
        <div className="container">
-          <div className="cta-bg" data-background="assets/img/banner/cta-bg.jpg">
+          <div className="cta-bg" data-background="">
              <div className="row align-items-center">
                 <div className="col-lg-9 col-md-9">
                    <div className="tpsection">
@@ -484,7 +490,7 @@ export default function Home() {
                 </div>
                 <div className="col-lg-3 col-md-3">
                    <div className="cta-phone text-center pl-10">
-                      <a className="tp-ripple" href="tel:0123456789"><i className="fa-light fa-phone-volume"></i></a>
+                      <a className="tp-ripple" href=""><i className="fa-light fa-phone-volume"></i></a>
                    </div>
                 </div>
              </div>
@@ -589,17 +595,17 @@ export default function Home() {
                 <div className="splide__list">
                    <div className="splide__slide">
                       <div className="brand-slider-item">
-                         <h4 className="brand-slider-title"> <i><img src="assets/img/shape/brand-slider-icon-1.png" alt=""/></i> <a href="#">عناية مميزة</a> </h4>
+                         <h4 className="brand-slider-title"> <i><img src="assets/img/shape/brand-slider-icon-3.png" alt=""/></i> <a href="#">عناية مميزة</a> </h4>
                       </div>
                    </div>
                    <div className="splide__slide">
                       <div className="brand-slider-item">
-                         <h4 className="brand-slider-title"><i> <img src="assets/img/shape/brand-slider-icon-1.png" alt=""/></i> <a href="#">الجمال الطبيعي</a></h4>
+                         <h4 className="brand-slider-title"><i> <img src="assets/img/shape/brand-slider-icon-3.png" alt=""/></i> <a href="#">الجمال الطبيعي</a></h4>
                       </div>
                    </div>
                    <div className="splide__slide">
                       <div className="brand-slider-item">
-                      <h4 className="brand-slider-title"><i> <img src="assets/img/shape/brand-slider-icon-1.png" alt=""/></i> <a href="#">تحسين الحياة</a></h4>
+                      <h4 className="brand-slider-title"><i> <img src="assets/img/shape/brand-slider-icon-3.png" alt=""/></i> <a href="#">تحسين الحياة</a></h4>
                       </div>
                    </div>
                 </div>

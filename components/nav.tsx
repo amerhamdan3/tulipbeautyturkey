@@ -34,14 +34,14 @@ export default function About(props: any) {
                      <div className="col-xxl-3 col-xl-2 col-lg-6 col-md-4 col-6">
                         <div className="logo">
                            <Link href="/">
-                              <img height={70} src="/assets/img/logo/logo-white.png" alt="logo"/>
+                              <img height={70} src="/assets/img/logo/logo-gold.png" alt="logo"/>
                            </Link>
                         </div>
                      </div>
                      <div className="col-xxl-6 col-xl-7 d-none d-xl-block">
                         <div className="main-menu  menu-position">
                            <nav id="mobile-menu" className="tp-main-menu-content">
-                              <ul>{/*className="has-dropdown"*/}
+                              <ul>
                                  <li >
                                     <Link href="/" >الرئيسية</Link>
 
@@ -132,7 +132,7 @@ export default function About(props: any) {
 
 
     {/* offcanvas area start */}
-    <div className="offcanvas__area" hidden>
+    <div className="offcanvas__area">
         <div className="offcanvas__wrapper">
         <div className="offcanvas__close">
             <button className="offcanvas__close-btn offcanvas-close-btn">
@@ -164,12 +164,12 @@ export default function About(props: any) {
             <div className="offcanvas__top mb-70 d-flex justify-content-between align-items-center">
             <div className="offcanvas__logo logo">
                 <Link href="/">
-                <img height={20} src="/assets/img/logo/logo.png" alt="logo" />
+                <img height={20} src="/assets/img/logo/logo-white.png" alt="logo" />
                 </Link>
             </div>
             </div>
             <div className="tp-main-menu-mobile" />
-            <div className="offcanvas__btn">
+            {/* <div className="offcanvas__btn">
             <a href="contact.html" className="tp-btn-offcanvas">
                 Getting Started <i className="fa-regular fa-chevron-right" />
             </a>
@@ -179,7 +179,7 @@ export default function About(props: any) {
             <p>
                 1489 Langley Ave <br /> Grand Forks Afb, North.
             </p>
-            </div>
+            </div> */}
             <div className="side-info-social">
             <a href="#">
                 <i className="fa-brands fa-facebook-f" />

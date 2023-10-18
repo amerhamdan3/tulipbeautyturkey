@@ -198,7 +198,7 @@ return(
                   {" "}
                   <i>
                     <img
-                      src="assets/img/shape/brand-slider-icon-1.png"
+                      src="assets/img/shape/brand-slider-icon-3.png"
                       alt=""
                     />
                   </i>{" "}
@@ -212,7 +212,7 @@ return(
                   <i>
                     {" "}
                     <img
-                      src="assets/img/shape/brand-slider-icon-1.png"
+                      src="assets/img/shape/brand-slider-icon-3.png"
                       alt=""
                     />
                   </i>{" "}

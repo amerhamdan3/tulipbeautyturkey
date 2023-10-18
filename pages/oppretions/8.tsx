@@ -91,17 +91,17 @@ return (
                 <div className="splide__list">
                    <div className="splide__slide">
                       <div className="brand-slider-item">
-                         <h4 className="brand-slider-title"> <i><img src="assets/img/shape/brand-slider-icon-1.png" alt=""/></i> <a href="#">عناية مميزة</a> </h4>
+                         <h4 className="brand-slider-title"> <i><img src="assets/img/shape/brand-slider-icon-3.png" alt=""/></i> <a href="#">عناية مميزة</a> </h4>
                       </div>
                    </div>
                    <div className="splide__slide">
                       <div className="brand-slider-item">
-                         <h4 className="brand-slider-title"><i> <img src="assets/img/shape/brand-slider-icon-1.png" alt=""/></i> <a href="#">الجمال الطبيعي</a></h4>
+                         <h4 className="brand-slider-title"><i> <img src="assets/img/shape/brand-slider-icon-3.png" alt=""/></i> <a href="#">الجمال الطبيعي</a></h4>
                       </div>
                    </div>
                    <div className="splide__slide">
                       <div className="brand-slider-item">
-                      <h4 className="brand-slider-title"><i> <img src="assets/img/shape/brand-slider-icon-1.png" alt=""/></i> <a href="#">تحسين الحياة</a></h4>
+                      <h4 className="brand-slider-title"><i> <img src="assets/img/shape/brand-slider-icon-3.png" alt=""/></i> <a href="#">تحسين الحياة</a></h4>
                       </div>
                    </div>
                 </div>
