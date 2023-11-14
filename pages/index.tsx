@@ -15,7 +15,7 @@ export default function Home() {
 
 
     <section className="banner-area theme-bg-2 p-relative">
-    <video autoPlay muted data-autoplay="true" data-loop="true" className='headerVideo' src="/assets/production_id_4153808.mp4"></video>
+    <video autoPlay muted data-autoplay="true" data-loop="true" className='headerVideo' src="/assets/VID-20231026-WA0006.mp4"></video>
        <div className="container">
           <div className="row">
              <div className="col-lg-6">
@@ -28,12 +28,12 @@ export default function Home() {
                       <p style={{color:'#b1aa9f'}}>نحن نفهم تمامًا أهمية الجمال والثقة بالنفس.<br/>
                          في عيادتنا، نسعى جاهدين لجعل أحلامك الجمالية حقيقة. مهمتنا هي تقديم أعلى مستويات الرعاية والجودة في مجال عمليات التجميل.</p>
                    </div>
-                   <ul className="tpbanner-list">
+                   {/* <ul className="tpbanner-list">
                       <li className="tpbanner-list-1"><Link href="/oppretions/1"><span>زراعة الشعر</span></Link></li>
                       <li className="tpbanner-list-2"><Link href="/oppretions/2"><span>التجميل الجراحي</span></Link></li>
                       <li className="tpbanner-list-3"><Link href="/oppretions/3"><span>عمليات الأسنان</span></Link></li>
                       <li className="tpbanner-list-4"><Link href="/oppretions/4"><span>عمليات تخفيض الوزن</span></Link></li>
-                   </ul>
+                   </ul> */}
                 </div>
              </div>
              <div className="col-lg-6">

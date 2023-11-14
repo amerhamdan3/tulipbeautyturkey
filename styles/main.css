@@ -4351,25 +4351,25 @@ div.demo img {
   }
 }
 .tpbanner-list-1 span {
-  background-color: #ffe2be;
+  background-color: #fdea97;
   color: var(--tp-heading-primary);
   padding: 19px 23px;
   display: inline-block;
 }
 .tpbanner-list-2 span {
-  background-color: #F9B39A;
+  background-color: #FFD95A;
   color: var(--tp-heading-primary);
   padding: 13px 23px;
   display: inline-block;
 }
 .tpbanner-list-3 span {
-  background-color: #E7815C;
-  color: var(--tp-heading-primary);
+  background-color: #C07F00;
+  color: var(--tp-common-white);
   padding: 13px 23px;
   display: inline-block;
 }
 .tpbanner-list-4 span {
-  background-color: #CD5F37;
+  background-color: #966400;
   color: var(--tp-common-white);
   padding: 13px 23px;
   display: inline-block;
